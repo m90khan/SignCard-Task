@@ -1,0 +1,135 @@
+/* Style the container for inputs */
+.container, .sign {
+  font-family: "Roboto", "Montserrat", "Ubuntu", sans-serif;
+  padding: 10px;
+}
+/* Same Styling  */
+/* background colors  */
+.container, .signup-btn:hover {
+  background-color: #1FFE98;
+}
+.message_hide, .bg-green, .signup-btn, .or-seperator b {
+  background-color: #3F0284;
+}
+.bg-azowo{
+  background: url(../img/background-o.png) center center/cover repeat;
+    /* background-color: #3F0284; */
+}
+/* text-color */
+/* Add a #1FFE98 text color and a checkmark when the requirements are right */
+.valid, .signup-btn, .or-seperator, .create_ac, .create_ac a {
+  color: #1FFE98;
+}
+.signup-btn:hover, .sign, .forgot_pwd a {
+  color: #3f0284;
+}
+/* Style all input fields */
+input {
+  border-radius: 10px;
+  border: 1.5px solid #3F0284;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  width: 100%;
+}
+/* The message box is shown when the user clicks on the password field */
+.message_hide {
+  color: #000;
+  display: none;
+  padding: 5px;
+  position: relative;
+  }
+.message_hide p {
+  font-size: 15px;
+  padding: 0 80px;
+}
+.valid:before {
+  content: "✔";
+  left: -35px;
+  position: relative;
+}
+/* Add  text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #fff;
+}
+.invalid:before {
+  content: "✖";
+  left: -35px;
+  position: relative;
+}
+.page-wrapper {
+  min-height: 100vh;
+}
+.p-t-100 {
+  padding: 50px 0 80px 0;
+}
+.sign-card {
+  background: url(../img/azowo-head.png) center center/cover no-repeat;
+  display: block;
+  padding: 150px 0 0;
+}
+.signup-btn {
+  margin: 10px 0 0 0;
+  text-align: center;
+  transition: all 0.4s;
+}
+.signup-btn:hover {
+  border-color: 15px solid #3f0284 !important;
+  font-size: 18px;
+}
+.or-seperator {
+  border-top: 1px solid #3f0284;
+  margin: 50px 0 15px;
+  text-align: center;
+}
+.or-seperator b {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  /* padding: 0 10px; */
+  text-align: center;
+  top: -22px;
+  width: 40px;
+  z-index: 1;
+}
+.social-btn .btn {
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  height: 55px;
+  line-height: 38px;
+  margin: 10px 0 0 30px;
+  transition: all 0.4s;
+  width: 55px;
+}
+.social-btn .btn:first-child {
+  margin-left: 0;
+}
+.social-btn .btn:hover {
+  opacity: 0.8;
+}
+.social-btn .btn-primary {
+  background: #507cc0;
+}
+.social-btn .btn-info {
+  background: #64ccf1;
+}
+.social-btn .btn-danger {
+  background: #df4930;
+}
+.social-btn .btn i {
+  font-size: 20px;
+}
+
+.dataMessage5{
+  display: block !important;
+}
+.dataMessage6{
+  display: none;
+}

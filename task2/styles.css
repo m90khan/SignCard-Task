@@ -1,0 +1,126 @@
+/* Style the container for inputs */
+.container, .sign {
+  padding: 10px;
+  font-family: "Roboto", "Montserrat", "Ubuntu", sans-serif;
+}
+/* Same Styling  */
+/* background colors  */
+.container, .signup-btn:hover {
+  background-color: #1FFE98;
+}
+#message, .bg-green, .signup-btn, .or-seperator b {
+  background-color: #3F0284;
+}
+.bg-green{
+  background: url(background-o.png) center center/cover repeat;
+}
+/* text-color */
+/* Add a #1FFE98 text color and a checkmark when the requirements are right */
+.valid, .signup-btn, .or-seperator, .create_ac, .create_ac a {
+  color: #1FFE98;
+}
+.signup-btn:hover, .sign, .forgot_pwd a {
+  color: #3f0284;
+}
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #3F0284;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  color: #000;
+  position: relative;
+  padding: 5px;
+}
+#message p {
+  padding: 0 80px;
+  font-size: 15px;
+}
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+/* Add  text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #fff;
+}
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.page-wrapper {
+  min-height: 100vh;
+}
+.p-t-100 {
+  padding: 50px 0 80px 0;
+}
+.sign-card {
+  background: url(azowo.jpg) center center/cover no-repeat;
+  padding: 200px 0 0;
+}
+.signup-btn {
+  text-align: center;
+  transition: all 0.4s;
+  margin: 10px 0 0 0;
+}
+.signup-btn:hover {
+  border-color: 15px solid #3f0284 !important;
+  font-size: 18px;
+}
+.or-seperator {
+  margin: 50px 0 15px;
+  text-align: center;
+  border-top: 1px solid #3f0284;
+}
+.or-seperator b {
+  padding: 0 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: -22px;
+  z-index: 1;
+}
+.social-btn .btn {
+  color: #fff;
+  margin: 10px 0 0 30px;
+  font-size: 15px;
+  width: 55px;
+  height: 55px;
+  line-height: 38px;
+  border-radius: 50%;
+  font-weight: normal;
+  border: none;
+  transition: all 0.4s;
+}
+.social-btn .btn:first-child {
+  margin-left: 0;
+}
+.social-btn .btn:hover {
+  opacity: 0.8;
+}
+.social-btn .btn-primary {
+  background: #507cc0;
+}
+.social-btn .btn-info {
+  background: #64ccf1;
+}
+.social-btn .btn-danger {
+  background: #df4930;
+}
+.social-btn .btn i {
+  font-size: 20px;
+}
